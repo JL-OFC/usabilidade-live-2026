@@ -1,0 +1,25 @@
+body{
+    background-color: #27272a;
+}
+
+.container{
+    display: flex;
+    gap: 10px 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #8b5cf6;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: #a5b4fc;
+}
+
+.item-3{
+    flex-grow: 1;
+}
+
+.item-6{
+    flex-grow: 2;
+}
